@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ex9",
+            "request": "launch",
+            "mainClass": "ex9",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex8",
+            "request": "launch",
+            "mainClass": "ex8",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MergeSort",
             "request": "launch",
             "mainClass": "Sorts.src.MergeSort",

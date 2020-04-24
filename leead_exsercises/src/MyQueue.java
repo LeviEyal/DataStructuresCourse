@@ -33,11 +33,11 @@ public class MyQueue<T> {
         return (T)temp;
     }
 
-    private boolean isEmpty() {
+    public boolean isEmpty() {
         return size==0;
     }
 
-    private boolean isfull() {
+    public boolean isfull() {
         return size==a.length;
     }
 

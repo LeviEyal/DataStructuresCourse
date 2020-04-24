@@ -56,13 +56,33 @@ public class ex7 {
         // System.out.println(palindrom(s1)); //true
         // System.out.println(palindrom(s2)); //true
         // System.out.println(palindrom(s3)); //false
-        // System.out.println(palindrom(s4)); //true
-
+        // System.out.println(palindrom(s4)); //tren
     /* Testing question 5: */
-        Queue<Integer> q = sortedQueue(20);
-        System.out.println(q);
+        // Queue<Integer> q = sortedQueue(20);
+        // System.out.println(q);
+
+    /* Testing question 6: */
+        TwoQueue<Object> tq = new TwoQueue<>(10);
+        tq.enQueue1(1);
+        tq.enQueue1(2);
+        tq.enQueue1(3);
+        tq.enQueue1(4);
+        tq.enQueue1(5);
+        tq.enQueue2("a");
+        tq.enQueue2("b");
+        tq.enQueue2("c");
+        tq.enQueue2("d");
+        tq.enQueue2("e");
+        int size1 = tq.size1();
+        for(int i=0; i<size1; i++)
+            System.out.println(tq.deQueue1());
+        tq.printQueue1();
+        tq.printQueue2();
+        tq.printArray();
 
     }
+//______________________________________________________
+    //Questions 1,2,3: see MyQueue.java file
 //______________________________________________________
     //Question 4: O(n)
     public static boolean palindrom(String str){
@@ -91,5 +111,7 @@ public class ex7 {
         }
         return q;
     }
+//______________________________________________________
+    //Question 6: see TwoQueue.java file
 
 }

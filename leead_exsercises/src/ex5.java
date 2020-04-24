@@ -34,8 +34,12 @@ public class ex5 {
         // System.out.println(q4(a4));
 
     /* Testing question 5: */
-        int a5[] = {1,2,5,33,55,63,42,65,234,65,124,113,51,241,7,2,34,1};
-        System.out.println(median(a5));
+        // int a5[] = {1,2,5,33,55,63,42,65,234,65,124,113,51,241,7,2,34,1};
+        // System.out.println(median(a5));
+
+    /* Testing question 6: */
+        String a6[] = {"to","be","or","not","to","be"};
+        dedup(a6);
     }
 //______________________________________________________
     //Question 1: O(n)
@@ -131,9 +135,16 @@ public class ex5 {
                 a[k++] = i;
     }
 //______________________________________________________
-    //Question 6: O()
+    //Question 6: O(n^2)
     public static void dedup(String a[]){
-
+        boolean b;
+        for(int i=0; i<a.length; i++){
+            b = true;
+            for(int j=0; j<i; j++)
+                if(a[i].equals(a[j]))
+                    b = false;
+            if(b) System.out.print(a[i]+" ");
+        }
     }
 // ______________________________________________________
     //Quick-sort intervals for question 3
