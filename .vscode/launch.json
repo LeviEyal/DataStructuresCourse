@@ -1,0 +1,307 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSort",
+            "request": "launch",
+            "mainClass": "Sorts.src.MergeSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex4",
+            "request": "launch",
+            "mainClass": "ex4",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex1",
+            "request": "launch",
+            "mainClass": "Assignments.src.Ex1",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RadixSort",
+            "request": "launch",
+            "mainClass": "Sorts.src.RadixSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CountingSort",
+            "request": "launch",
+            "mainClass": "Sorts.src.CountingSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex7",
+            "request": "launch",
+            "mainClass": "ex7",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex2",
+            "request": "launch",
+            "mainClass": "ex2",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex3",
+            "request": "launch",
+            "mainClass": "ex3",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "SuperStruct.src.Test",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex1",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex1",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex5",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex5",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex5",
+            "request": "launch",
+            "mainClass": "ex5",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex5",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex5",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex7",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex7",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Stack_And_Queue.src.Test",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex6",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex6",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnionFind",
+            "request": "launch",
+            "mainClass": "Eyal_UnionFind.src.UnionFind",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Eyal_Stack_And_Queue.src.Test",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<BinarySearch (2)>",
+            "request": "launch",
+            "mainClass": "Eyal_BinarySearch.src.test",
+            "projectName": "BinarySearch (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_BinarySearch.src.Eyal_BinarySearch.src.test",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-heapSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Heaps.src.heapSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<dataStructures_b7fdf92d>(1)",
+            "request": "launch",
+            "mainClass": "Eyal_LinkedList.src.test",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Eyal_countingSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.Eyal_countingSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Eyal_radixSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.Eyal_radixSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-bubbleSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.bubbleSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-bucketSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.bucketSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-insertionSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.insertionSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mergeSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.mergeSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-quickSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.quickSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-selectionSort<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_Sorts.src.selectionSort",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mainUF<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "Eyal_UniunFind.src.mainUF",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ex1<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex1",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ex2<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex2",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ex3<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex3",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ex4<dataStructures_b7fdf92d>",
+            "request": "launch",
+            "mainClass": "leead_exsercises.src.ex4",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyClass",
+            "request": "launch",
+            "mainClass": "MyClass"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Question0",
+            "request": "launch",
+            "mainClass": "S1.Question0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Question6",
+            "request": "launch",
+            "mainClass": "S1.Question6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Question7",
+            "request": "launch",
+            "mainClass": "S1.Question7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapSort",
+            "request": "launch",
+            "mainClass": "S7.HeapSort"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch",
+            "request": "launch",
+            "mainClass": "Sorts.BinarySearch"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountingSort",
+            "request": "launch",
+            "mainClass": "Sorts.CountingSort"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RadixSort",
+            "request": "launch",
+            "mainClass": "saed.RadixSort"
+        }
+    ]
+}
