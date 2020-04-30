@@ -7,7 +7,7 @@ import org.graalvm.compiler.hotspot.stubs.OutOfBoundsExceptionStub;
 ******************************************************************************/
 public class MyLinkedList {
     
-    private static class Node {
+    class Node {
         private int key;
         private Node next;
     

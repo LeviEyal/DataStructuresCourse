@@ -1,8 +1,9 @@
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/happyEyal
+*  Data Structures 2020 - CS Ariel university
+*  Stack implementation using an array 
+******************************************************************************/
 package Stack_And_Queue.src;
 
 public class Stack_array<T> {

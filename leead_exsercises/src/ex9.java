@@ -22,6 +22,8 @@ public class ex9 {
         System.out.println("Size: "+bt.size());
     /* Testing question 5: */
         System.out.println(bt.find(4));
+    /* Testing question 6: */
+        System.out.println(bt.isLeaf(7));
     }
 
 //_____________________________________________________________________________

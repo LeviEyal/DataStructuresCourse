@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Ex1",
+            "request": "launch",
+            "mainClass": "Assignments.src.Ex1",
+            "projectName": "Assignments"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex1",
+            "request": "launch",
+            "mainClass": "Ex1",
+            "projectName": "Assignments"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - hkd",
+            "request": "launch",
+            "mainClass": "hkd",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ex10",
+            "request": "launch",
+            "mainClass": "ex10",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - q1",
+            "request": "launch",
+            "mainClass": "excer1.q1",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ex9",
             "request": "launch",
             "mainClass": "ex9",

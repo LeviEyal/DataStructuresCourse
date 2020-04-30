@@ -11,27 +11,21 @@ public class StackUsingLL<T> {
     public StackUsingLL(){
         stack = new LinkedList<>();
     }
-
     public boolean push(T val){
         return stack.offerFirst(val);
     }
-
     public T pop(){
         return stack.removeFirst();
     }
-
     public T front(){
         return stack.peekFirst();
     }
-
     public T tail(){
         return stack.peekLast();
     }
-
     public int size(){
         return stack.size();
     }
-
     public void empty(){
         stack.clear();
     }

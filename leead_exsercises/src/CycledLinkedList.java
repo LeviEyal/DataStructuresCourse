@@ -6,9 +6,9 @@
 ******************************************************************************/
 public class CycledLinkedList<T> {
 
-    private static class Node<T> {
+    class Node {
         private T key;
-        private Node<T> next;
+        private Node next;
 
         public Node(T key) {
             this.key = key;
@@ -20,8 +20,8 @@ public class CycledLinkedList<T> {
         }
     }
 
-    private Node<T> head;
-    private Node<T> tail;
+    private Node head;
+    private Node tail;
     private int size;
 
     public CycledLinkedList() {
@@ -30,7 +30,7 @@ public class CycledLinkedList<T> {
     }
 
     public void add(T key){
-        Node<T> newNode = new Node<>(key);
+        Node newNode = new Node(key);
         if(head == null) head = newNode;
         else  {
             tail.next = newNode;
@@ -41,7 +41,7 @@ public class CycledLinkedList<T> {
     }
 
     public void remove(T key){
-        Node<T> p;
+        Node p;
         int count = 0;
         for(p = head; count++<=size ; p=p.next){
             if(p.next.key.equals(key)){
@@ -51,16 +51,16 @@ public class CycledLinkedList<T> {
         }
     }
 
-    public Node<T> search(T key) {
+    public Node search(T key) {
         int count = 0;
-        for(Node<T> p=head; count++<=size ; p=p.next)
+        for(Node p=head; count++<=size ; p=p.next)
             if(p.key.equals(key))
                 return p;
         return null;
     }
 
-    public Node<T> at(int i) {
-        for(Node<T> p=head; p!=null; p=p.next, i--)
+    public Node at(int i) {
+        for(Node p=head; p!=null; p=p.next, i--)
             if(i==0)
                 return p;
         return null;
@@ -72,7 +72,7 @@ public class CycledLinkedList<T> {
             return;
         }
         int count = 0;
-        for(Node<T> p = head; count++<=size ; p=p.next)
+        for(Node p = head; count++<=size ; p=p.next)
             System.out.print(p.key+" -> ");
         System.out.println("null.   Size:"+size+"   Head: "+head.key+"  Tail: "+tail.key);
     }

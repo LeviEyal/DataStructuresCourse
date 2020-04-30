@@ -26,17 +26,18 @@ public class BinaryTree<T> {
 
     public void add(T val){
         Node<T> newNode = new Node<>(val);
-        if(root==null) root = newNode;
-        else{
-            Node<T> p = root;
-            while(p.left!=null && p.right!=null){
-                double r = Math.random();
-                if(r>= 0.5) p = p.right;
-                if(r < 0.5) p = p.left;
-            }
-            if(p.left==null)  p.left = newNode;
-            else if (p.right==null) p.right = newNode;
+        if(root==null){
+            root = newNode;
+            return;
         }
+        Node<T> p = root;
+        while(p.left!=null && p.right!=null){
+            double r = Math.random();
+            if(r>= 0.5) p = p.right;
+            if(r < 0.5) p = p.left;
+        }
+        if(p.left==null)  p.left = newNode;
+        else if (p.right==null) p.right = newNode;
     }
 
     //Question 2:
@@ -99,11 +100,10 @@ public class BinaryTree<T> {
 
     //Question 6:
     public String isLeaf(Object data){
-        return isLeaf(data, root);
-    }
-    private String isLeaf(Object data, Node<T> p) {
-        
-        return null;
+        Node<T> temp = find(data);
+        if(temp == null) return "Not a vertex";
+        if(temp.right == null && temp.left == null) return "a leaf";
+        else return "Not a leaf";
     }
 
     // _____________________________________________________________________________

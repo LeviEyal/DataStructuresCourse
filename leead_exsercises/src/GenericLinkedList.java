@@ -6,9 +6,9 @@
 ******************************************************************************/
 public class GenericLinkedList<T> {
 
-    private static class Node<T>{
+    class Node{
         private T key;
-        private Node<T> next;
+        private Node next;
 
         public Node(T key){
             this.key = key;
@@ -22,8 +22,8 @@ public class GenericLinkedList<T> {
         }
     }
 
-    private Node<T> head;
-    private Node<T> tail;
+    private Node head;
+    private Node tail;
     private int size;
 
     public GenericLinkedList(){
@@ -32,7 +32,7 @@ public class GenericLinkedList<T> {
     }
 
     public void add(T key){
-        Node<T> newNode = new Node<>(key);
+        Node newNode = new Node(key);
         if(head == null) head = newNode;
         else             tail.next = newNode;
         tail = newNode;
@@ -64,7 +64,7 @@ public class GenericLinkedList<T> {
             return temp; 
         } 
         T temp = tail.key();
-        for(Node<T> p=head; p!=null; p=p.next){
+        for(Node p=head; p!=null; p=p.next){
             if(p.next == tail){
                 p.next = null;
                 tail = p;
@@ -74,10 +74,10 @@ public class GenericLinkedList<T> {
         return temp;
     }
 
-    public Node<T> remove(T key){
-        Node<T> p;
+    public Node remove(T key){
+        Node p;
         if(head.key.equals(key)){
-            Node<T> temp = head;
+            Node temp = head;
             if(size == 1){
                head = tail = null; 
                return temp;
@@ -88,7 +88,7 @@ public class GenericLinkedList<T> {
         } 
         for(p = head; p.next!=null; p=p.next){
             if(p.next.key.equals(key)){
-                Node<T> temp = p.next;
+                Node temp = p.next;
                 p.next = p.next.next;
                 size--;
                 if(p.next == null){
@@ -100,20 +100,20 @@ public class GenericLinkedList<T> {
         return null;
     }
 
-    public Node<T> search(T key) {
-        for(Node<T> p=head; p!=null; p=p.next)
+    public Node search(T key) {
+        for(Node p=head; p!=null; p=p.next)
             if(p.key.equals(key)) return p;
         return null;
     }
 
-    public Node<T> at(int i) {
-        for(Node<T> p=head; p!=null; p=p.next, i--)
+    public Node at(int i) {
+        for(Node p=head; p!=null; p=p.next, i--)
             if(i==0) return p;
         return null;
     }
 
     public T get(int i) {
-        for(Node<T> p=head; p!=null; p=p.next, i--)
+        for(Node p=head; p!=null; p=p.next, i--)
             if(i==0) return p.key;
         return null;
     }
@@ -129,7 +129,7 @@ public class GenericLinkedList<T> {
     public String toString(){
         if(head == null) return "Size: 0";
         String t = "[";
-        for(Node<T> p = head; p!=null; p=p.next)
+        for(Node p = head; p!=null; p=p.next)
             t+= p.key+" -> ";
         return t+"null] Size:"+size+" Head: "+head.key+" Tail: "+tail.key;
     }

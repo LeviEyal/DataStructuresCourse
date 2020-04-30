@@ -8,12 +8,12 @@ import java.util.NoSuchElementException;
  ******************************************************************************/
 public class MyQueue<T> {
     
-    private T a[];
+    private Object a[];
     private int first, last;
     private int size;
 
     public MyQueue(int capacity){
-        a = (T[]) new Object[capacity];
+        a = new Object[capacity];
         size=0;
         first = 0;last = -1;
     }
@@ -25,12 +25,12 @@ public class MyQueue<T> {
         return element;
     }
 
-    public T deQueue(){
+    public Object deQueue(){
         if(isEmpty()) return null;
         Object temp = a[first];
         first = (first+1)%a.length;
         size--;
-        return (T)temp;
+        return temp;
     }
 
     public boolean isEmpty() {
@@ -68,7 +68,7 @@ public class MyQueue<T> {
     }
 
     //Question 3: O(1)
-    public T elementAt(int i){
+    public Object elementAt(int i){
         if(i<0 || i>=size)
             throw new NoSuchElementException("Out of Queue boundary");
         return a[(first+i)%a.length];

@@ -2,11 +2,12 @@ package Sorts.src;
 
 import java.util.Arrays;
 
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/happyEyal
+*  Data Structures 2020 - CS Ariel university
+*  Exercise - 
+******************************************************************************/
 public class SelectionSort {
 
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class SelectionSort {
         sort2(a);
         System.out.println(Arrays.toString(a));
     }
-
+//_____________________________________________________________________________
     private static void sort(int[] a) {
         for(int i=0; i<a.length; i++){
             int j = findSmallest(a,i);
@@ -32,7 +33,7 @@ public class SelectionSort {
                 minIndex=i;
         return minIndex;
     }
-
+//_____________________________________________________________________________
     /* option 2 */
     private static void sort2(int[] a) {
         for(int i=0; i<a.length; i++){
