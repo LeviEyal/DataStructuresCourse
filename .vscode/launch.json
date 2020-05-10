@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ex3",
+            "request": "launch",
+            "mainClass": "Exercisers.ex3",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "TESTSS.src.test1.App",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "TESTSS.src.app.App",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - kal1",
+            "request": "launch",
+            "mainClass": "TESTSS.src.test2.kal1",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "BinarySearceTree.src.Test",
+            "projectName": "BinarySearceTree"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "BinarySearceTree"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "BinarySearceTree.src.Test",
+            "projectName": "dataStructures_b7fdf92d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Ex1",
             "request": "launch",
             "mainClass": "Assignments.src.Ex1",
