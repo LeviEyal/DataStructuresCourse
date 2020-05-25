@@ -3,11 +3,12 @@ package Sorts;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Bucket sort algorithm
+******************************************************************************/
 public class BucketSort {
     public static void main(String[] args) {
         double a[] = {19,4.8,5,23,0.3,14,5,2.5,11,2,1.5,0.45};

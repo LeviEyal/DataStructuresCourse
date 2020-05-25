@@ -1,11 +1,12 @@
 package Sorts;
 
 import java.util.Arrays;
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Counting sort algorithm 
+******************************************************************************/
 public class CountingSort {
     public static void main(String[] args) {
         int a[] = {2,33,454,332,545,432,5,656,678,229,70,656,3,456,23,45,2,0};

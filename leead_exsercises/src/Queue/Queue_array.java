@@ -1,10 +1,11 @@
 package Queue;
 
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Queue implementation using an array (generic)
+******************************************************************************/
 
 public class Queue_array<T> {
 
@@ -50,11 +51,11 @@ public class Queue_array<T> {
         String s="--------------------------\n";
         for(int i=0; i<size; i++){
             int k = (first+i)%a.length;
-            s+="|"+a[k]+"|";
+            s+=String.format(" |%3d|",a[k]);
             if(k == last)
                 s+=" <-- LAST";
             if(k == first)
-                s+=" <-- FIRST";
+                s+=" --> FIRST";
             s+="\n";
         }
         return s+"--------------------------\n";

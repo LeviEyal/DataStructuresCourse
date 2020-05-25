@@ -4,10 +4,11 @@ import java.util.Arrays;
 
 /******************************************************************************
 *  @author Eyal Levi
-*  https://github.com/happyEyal
+*  https://github.com/LeviEyal
 *  Data Structures 2020 - CS Ariel university
-*  Exercise - 
+*  Selection sort algorithm
 ******************************************************************************/
+
 public class SelectionSort {
 
     public static void main(String[] args) {

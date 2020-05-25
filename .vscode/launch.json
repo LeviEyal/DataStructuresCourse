@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ex1",
+            "request": "launch",
+            "mainClass": "תירגולים.ex1",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - junk",
+            "request": "launch",
+            "mainClass": "Assignments.junk",
+            "projectName": "Assignments"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Queue.Test",
+            "projectName": "תרגילים ליעד"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Range",
+            "request": "launch",
+            "mainClass": "Assignments.src.Range",
+            "projectName": "Assignments"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ex3",
             "request": "launch",
             "mainClass": "Exercisers.ex3",

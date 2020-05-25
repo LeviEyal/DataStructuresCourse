@@ -1,5 +1,10 @@
 package LinkedList;
-
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  LinkedList tests
+******************************************************************************/
 public class test {
     public static void main(String[] args) {
         // SingleLinkedList<Integer> sll = new SingleLinkedList<>();

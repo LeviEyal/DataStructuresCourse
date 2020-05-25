@@ -1,12 +1,15 @@
-/* 
--------------------------------
-    Eyal Levi
--------------------------------
- */
+
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Stack implementation using an array (generic)
+******************************************************************************/
+
 package Stack;
 public class Stack_LL<T> {
 
-    private static class Node<T>{
+    class Node<T>{
         private T key;
         private Node<T> next;
 

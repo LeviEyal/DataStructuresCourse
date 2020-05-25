@@ -1,9 +1,11 @@
 package Sorts;
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Quick sort algorithm
+******************************************************************************/
+
 import java.util.Arrays;
 
 public class QuickSort {

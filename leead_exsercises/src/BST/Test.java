@@ -2,9 +2,9 @@ package BST;
 
 /******************************************************************************
 *  @author Eyal Levi
-*  https://github.com/happyEyal
+*  https://github.com/LeviEyal
 *  Data Structures 2020 - CS Ariel university
-*  Exercise - 
+*  Binary search tree implementation 
 ******************************************************************************/
 public class Test {
     public static void main(String[] args) {

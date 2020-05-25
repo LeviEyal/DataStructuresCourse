@@ -1,5 +1,10 @@
 package LinkedList;
-
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Sorted integers LinkedList 
+******************************************************************************/
 public class SortedLinkedList {
 
     private static class Node{

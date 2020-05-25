@@ -1,5 +1,10 @@
 package Queue;
-
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Queue implementation using a linkedList (generic)
+******************************************************************************/
 public class Queue_LL<T> {
 
     private static class Node<T>{

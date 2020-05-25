@@ -2,9 +2,9 @@ package Stack;
 
 /******************************************************************************
 *  @author Eyal Levi
-*  https://github.com/happyEyal
+*  https://github.com/LeviEyal
 *  Data Structures 2020 - CS Ariel university
-*  Stack implementation using an array 
+*  Stack implementation using an array (generic)
 ******************************************************************************/
 
 public class Stack_array<T> {

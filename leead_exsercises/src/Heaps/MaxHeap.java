@@ -1,5 +1,10 @@
 package Heaps;
-
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Maximum Heap data structure
+******************************************************************************/
 import java.util.Arrays;
 
 public class MaxHeap {

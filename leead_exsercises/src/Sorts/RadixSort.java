@@ -1,9 +1,10 @@
 package Sorts;
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Radix sort algorithm
+******************************************************************************/
 import java.util.Arrays;
 
 public class RadixSort {

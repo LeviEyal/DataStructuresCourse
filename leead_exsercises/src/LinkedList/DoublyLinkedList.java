@@ -1,5 +1,10 @@
 package LinkedList;
-
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Doubly Linked List (generic)
+******************************************************************************/
 public class DoublyLinkedList<T> {
 
     private static class Node<T>{

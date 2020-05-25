@@ -1,9 +1,10 @@
 package BinarySearch;
-/*
--------------------------------
-    Eyal Levi
--------------------------------
-*/
+/******************************************************************************
+*  @author Eyal Levi
+*  https://github.com/LeviEyal
+*  Data Structures 2020 - CS Ariel university
+*  Binary Search algorithm 
+******************************************************************************/
 public class binary_search {
     public static void main(String[] args) {
         int a[] = {1,2,3,5,6,7,8,9};
